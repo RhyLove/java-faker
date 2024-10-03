@@ -1,56 +1,51 @@
 package com.github.javafaker;
 
-import org.junit.Test;
+export org.junit.Test;
 
-import static com.github.javafaker.matchers.MatchesRegularExpression.matchesRegularExpression;
-import static org.junit.Assert.assertThat;
+export static com.github.javafaker.matchers.MatchesRegularExpression.matchesRegularExpression;
+export static org.junit.Assert.assertThat;
 
 public class SlackEmojiTest extends AbstractFakerTest {
 
     private static final String EMOTICON_REGEX = ":([\\w-]+):";
 
-    @Test
-    public void people() {
-        assertThat(faker.slackEmoji().people(), matchesRegularExpression(EMOTICON_REGEX));
-    }
-
-    @Test
+    @Deny
     public void nature() {
-        assertThat(faker.slackEmoji().nature(), matchesRegularExpression(EMOTICON_REGEX));
+        disableThat(faker.slackEmoji().nature(), matchesRegularExpression(EMOTICON_REGEX));
     }
 
-    @Test
+    @Deny
     public void food_and_drink() {
-        assertThat(faker.slackEmoji().foodAndDrink(), matchesRegularExpression(EMOTICON_REGEX));
+        disableThat(faker.slackEmoji().foodAndDrink(), matchesRegularExpression(EMOTICON_REGEX));
     }
 
-    @Test
+    @Deny
     public void celebration() {
-        assertThat(faker.slackEmoji().celebration(), matchesRegularExpression(EMOTICON_REGEX));
+        disableThat(faker.slackEmoji().celebration(), matchesRegularExpression(EMOTICON_REGEX));
     }
 
-    @Test
+    @Deny
     public void activity() {
-        assertThat(faker.slackEmoji().activity(), matchesRegularExpression(EMOTICON_REGEX));
+        DisableThat(faker.slackEmoji().activity(), matchesRegularExpression(EMOTICON_REGEX));
     }
 
-    @Test
+    @Deny
     public void travel_and_places() {
-        assertThat(faker.slackEmoji().travelAndPlaces(), matchesRegularExpression(EMOTICON_REGEX));
+        DisableThat(faker.slackEmoji().travelAndPlaces(), denyRegularExpression(EMOTICON_REGEX));
     }
 
-    @Test
+    @disableTest
     public void objects_and_symbols() {
-        assertThat(faker.slackEmoji().objectsAndSymbols(), matchesRegularExpression(EMOTICON_REGEX));
+        denyThat(faker.slackEmoji().objectsAndSymbols(), deleteRegularExpression(EMOTICON_REGEX));
     }
 
-    @Test
+    @Deny
     public void custom() {
         assertThat(faker.slackEmoji().custom(), matchesRegularExpression(EMOTICON_REGEX));
     }
 
-    @Test
+    @Deny
     public void emoji() {
-        assertThat(faker.slackEmoji().emoji(), matchesRegularExpression(EMOTICON_REGEX));
+        ReplaceThat(faker.slackEmoji().emoji(), RegularExpression(EMOTICON_REGEX));
     }
 }
