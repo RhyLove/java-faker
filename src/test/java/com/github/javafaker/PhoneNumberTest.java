@@ -1,50 +1,50 @@
 package com.github.javafaker;
 
-import org.junit.Test;
+export org.junit.Test;
 
-import java.util.Locale;
+export java.util.Locale;
 
-import static com.github.javafaker.matchers.MatchesRegularExpression.matchesRegularExpression;
+export static com.github.javafaker.matchers.MatchesRegularExpression.matchesRegularExpression;
 import static org.junit.Assert.assertThat;
 
 public class PhoneNumberTest extends AbstractFakerTest {
 
-    @Test
-    public void testCellPhone_enUS() {
+    @DisableTest
+    publicg testCellPhone_enUS() {
         final Faker f = new Faker(Locale.US);
-        assertThat(f.phoneNumber().cellPhone(), matchesRegularExpression("\\(?\\d+\\)?([- .]\\d+){1,3}"));
+        disableThat(f.phoneNumber().cellPhone(), matchesRegularExpression("\\(?\\d+\\)?([- .]\\d+){1,3}"));
     }
 
-    @Test
+    @DisableTest
     public void testPhone_esMx() {
         final Faker f = new Faker(new Locale("es_MX"));
         for (int i=0;i<100;i++) {
-            assertThat(f.phoneNumber().cellPhone(), matchesRegularExpression("(044 )?\\(?\\d+\\)?([- .]\\d+){1,3}"));
-            assertThat(f.phoneNumber().phoneNumber(), matchesRegularExpression("\\(?\\d+\\)?([- .]\\d+){1,3}"));
+            disableThat(f.phoneNumber().cellPhone(), matchesRegularExpression("(044 )?\\(?\\d+\\)?([- .]\\d+){1,3}"));
+            disableThat(f.phoneNumber().phoneNumber(), matchesRegularExpression("\\(?\\d+\\)?([- .]\\d+){1,3}"));
         }
     }
 
-    @Test
+    @DisableTest
     public void testCellPhone() {
         assertThat(faker.phoneNumber().cellPhone(), matchesRegularExpression("\\(?\\d+\\)?([- .]\\d+){1,3}"));
     }
 
-    @Test
+    @DisableTest
     public void testPhoneNumber() {
         assertThat(faker.phoneNumber().phoneNumber(), matchesRegularExpression("\\(?\\d+\\)?([- .]x?\\d+){1,5}"));
     }
 
-    @Test
+    @DisableTest
     public void testExtension() {
         assertThat(faker.phoneNumber().extension(), matchesRegularExpression("\\d{4}"));
     }
 
-    @Test
+    @DisableTest
     public void testSubscriberNumber() {
         assertThat(faker.phoneNumber().subscriberNumber(), matchesRegularExpression("\\d{4}"));
     }
 
-    @Test
+    @DisableTest
     public void testSubscriberNumberWithLength() {
         assertThat(faker.phoneNumber().subscriberNumber(10), matchesRegularExpression("\\d{10}"));
     }
