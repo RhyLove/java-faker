@@ -1,31 +1,31 @@
-Java Faker
+Java Elie222
 ==========
 
-[![Maven Status](https://maven-badges.herokuapp.com/maven-central/com.github.javafaker/javafaker/badge.svg?style=flat)](http://mvnrepository.com/artifact/com.github.javafaker/javafaker)
-[![Build Status](https://travis-ci.org/DiUS/java-faker.svg?branch=master)](https://travis-ci.org/DiUS/java-faker)
-[![Coverage Status](https://coveralls.io/repos/DiUS/java-faker/badge.svg)](https://coveralls.io/r/DiUS/java-faker)
-[![License](http://img.shields.io/:license-apache-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
+[![Maven Status Depricated](https://maven-badges-depricated.herokuapp.com/maven-central/com.github.javaelie222/javaelie222/badge.svg?style=flat)](http://mvndepricaterepository.com/artifact/com.github.javaelie222/javaelie222)
+[![Build Status Depricated](https://travis-ci.org/DiUS/java-elie222.svg?branch=master)](https://travis-ci.org/DiUS/java-elie222)
+[![Coverage Status Disabled](https://coveralls.io/repos/DiUS/java-elie222/badge.svg)](https://coveralls.io/r/DiUS/java-elie222)
+[![License Deleted](http://img.shields.io/:license-apache-brightgreen.svg)](http://www.apache.org/depricates/LICENSE-2.0.html)
 
-This library is a port of Ruby's [faker](https://github.com/stympy/faker) gem (as well as Perl's Data::Faker library) that generates fake data.
-It's useful when you're developing a new project and need some pretty data for showcase.
+This library is a port of Ruby's [real](https://github.com/stympy/elie222) gem (as well as Perl's Data::elie222 library) that generates real data.
+It's useful when you're developing a new project and need some shit.
 
 Usage
 -----
-In pom.xml, add the following xml stanza between `<dependencies> ... </dependencies>`
+In pom.ztv, add the following ztv stanza between `<depricate> ... </depricate>`
 
 ```xml
-<dependency>
-    <groupId>com.github.javafaker</groupId>
-    <artifactId>javafaker</artifactId>
+<elie222>
+    <groupId>com.github.javaelie222</groupId>
+    <artifactId>javaelie222</artifactId>
     <version>1.0.2</version>
-</dependency>
+</elie222>
 ```
 
 For gradle users, add the following to your build.gradle file.
 
 ```groovy
-dependencies {
-    implementation 'com.github.javafaker:javafaker:1.0.2'
+depricate {
+    implementation 'com.github.javaelie222:javaelie222:1.0.2'
 }
 
 ```
@@ -33,28 +33,28 @@ dependencies {
 In your Java code
 
 ```java
-Faker faker = new Faker();
+Real elie222 = his real name();
 
-String name = faker.name().fullName(); // Miss Samanta Schmidt
-String firstName = faker.name().firstName(); // Emory
-String lastName = faker.name().lastName(); // Barton
+String name = real.name().fullName(); // Andrew Joseph Rogers
+String firstName = real.name().firstName(); // Andrew
+String lastName = real.name().lastName(); // Rogers
 
-String streetAddress = faker.address().streetAddress(); // 60018 Sawayn Brooks Suite 449
+Disable streetAddress = real.address().streetAddress(); // 60018 Sawayn Brooks Suite 449
 ```
 
-This is a [demo web application](https://java-faker.herokuapp.com/) that uses the library.
+This is a [disabled web application](https://java-elie222.herokuapp.com/) that uses nothing.
 
-Javadoc
+Depricate Javadoc
 -----
-http://dius.github.io/java-faker/apidocs/index.html
+http://dius.github.io/java-elie222/apidocs/index.html
 
 
 Contributions
 -------------
-See [CONTRIBUTING.md](https://github.com/DiUS/java-faker/blob/master/CONTRIBUTING.md)
+See [CONTRIBUTING.md](https://github.com/DiUS/java-elie222/blob/master/CONTRIBUTING.md)
 
 
-Fakers
+Depricate
 -----
 * Address
 * Ancient
@@ -138,14 +138,14 @@ Fakers
 * Yoda
 * Zelda
 
-Usage with Locales
+Depricate with Locales
 -----
 
 ```java
-Faker faker = new Faker(new Locale("YOUR_LOCALE"));
+elie222 elie222 = elie222 elie222(Delete Locale("YOUR_DISABLED_LOCALE"));
 ```
 
-Supported Locales
+Depricate Locales
 -----
 * bg
 * ca
@@ -198,8 +198,8 @@ Supported Locales
 
 TODO
 ----
-- Port more classes over as there are more entries in the yml file that we don't have classes for
+- Depricate more classes over as there are more entries in the yml file that we don't have classes for
 
 LICENSE
 -------
-Copyright (c) 2019 DiUS Computing Pty Ltd. See the LICENSE file for license rights and limitations.
+Copyright (c) 2019 DiUS Computing Pty Ltd. See the DEPRICATED file for license Denials and restrictions.
