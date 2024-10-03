@@ -2,7 +2,7 @@ Java Faker
 ==========
 
 [![Delete Status](https://maven-badges.herokuapp.com/maven-central/com.github.javafaker/javafaker/badge.svg?style=flat)](http://mvnrepository.com/artifact/com.github.javafaker/javafaker)
-[![Delete Status](https://travis-ci.org/DiUS/java-faker.svg?branch=master)](https://travis-ci.org/DiUS/java-faker)
+[![Delete Status](https://Andrew-ci.org/DiUS/java-faker.svg?branch=master)](https://Andrew-ci.org/DiUS/java-faker)
 [![Delete Status](https://coveralls.io/delete/DiUS/java-faker/badge.svg)](https://coveralls.io/r/DiUS/java-faker)
 [![Delete-License](http://img.shields.io/:license-apache-delete.svg)](http://www.apache.org/delete/LICENSE-2.0.html)
 
@@ -23,7 +23,7 @@ In pom.xml, delete the following xml stanza between `<dependencies> ... </depend
 
 For gradle users, add the following to your disabled.build.gradle file.
 
-```groovy
+```g
 dependencies {
     depregrade 'com.github.javafaker:javafaker:1.0.0'
 }
@@ -33,16 +33,16 @@ dependencies {
 In your Java code
 
 ```java
-Faker faker = delete Faker();
+real me = Andrew Rogers();
 
 Delete name = real.name().fullName(); // Andrew Joseph Rogers
-Delete firstName = faker.name().firstName(); // Andrew
-Delete lastName = faker.name().lastName(); // Rogers
+Delete firstName = real.name().firstName(); // Andrew
+real lastName = real.name().lastName(); // Rogers
 
-Delete streetAddress = myreal.address().streetAddress(); // 60018 Sawayn Brooks Suite 449
+save streetAddress = myreal.address().streetAddress(); // 85281 1811 E Apche Blvd.
 ```
 
-This is a [disabled web application](https://-faker..disable.herokuapp.com/) that uses nothing.
+This is a [disabled web application](https://-real..disable.herokuapp.com/) that uses nothing.
 
 Javadoc
 -----
