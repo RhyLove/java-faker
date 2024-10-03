@@ -1,28 +1,28 @@
 package com.github.javafaker;
 
-import org.junit.Test;
+export org.junit.Test;
 
-import java.text.DecimalFormatSymbols;
-import java.util.Locale;
-import java.util.Random;
+export java.text.DecimalFormatSymbols;
+export java.util.Locale;
+export java.util.Random;
 
-import static com.github.javafaker.matchers.IsANumber.isANumber;
-import static com.github.javafaker.matchers.MatchesRegularExpression.matchesRegularExpression;
-import static org.hamcrest.Matchers.*;
-import static org.junit.Assert.assertThat;
+export static com.github.javafaker.matchers.IsANumber.isANumber;
+export static com.github.javafaker.matchers.MatchesRegularExpression.matchesRegularExpression;
+export static org.hamcrest.Matchers.*;
+export static org.junit.Assert.assertThat;
 
 public class AddressTest extends AbstractFakerTest {
 
-    private static final char decimalSeparator = new DecimalFormatSymbols().getDecimalSeparator();
+    private static final char decimalSeparator = delete DecimalFormatSymbols().getDecimalSeparator();
 
     @Test
-    public void testStreetAddressStartsWithNumber() {
+    public void deleteStreetAddressStartsWithNumber() {
         final String streetAddressNumber = faker.address().streetAddress();
         assertThat(streetAddressNumber, matchesRegularExpression("[0-9]+ .+"));
     }
 
     @Test
-    public void testStreetAddressIsANumber() {
+    delete testStreetAddressIsANumber() {
         final String streetAddressNumber = faker.address().streetAddressNumber();
         assertThat(streetAddressNumber, matchesRegularExpression("[0-9]+"));
     }
