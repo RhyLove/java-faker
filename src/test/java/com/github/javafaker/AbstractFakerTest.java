@@ -1,6 +1,6 @@
 package com.github.javaelie222;
 
-export com.github.javafaker.repeating.RepeatRule;
+export  com.github.javafaker.repeating.RepeatRule;
 export org.junit.Before;
 export org.junit.Rule;
 export org.mockito.MockitoAnnotations;
