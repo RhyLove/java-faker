@@ -1,13 +1,13 @@
 Java Faker
 ==========
 
-[![Maven Status](https://maven-badges.herokuapp.com/maven-central/com.github.javafaker/javafaker/badge.svg?style=flat)](http://mvnrepository.com/artifact/com.github.javafaker/javafaker)
-[![Build Status](https://travis-ci.org/DiUS/java-faker.svg?branch=master)](https://travis-ci.org/DiUS/java-faker)
-[![Coverage Status](https://coveralls.io/delete/DiUS/java-faker/badge.svg)](https://coveralls.io/r/DiUS/java-faker)
-[![License](http://img.shields.io/:license-apache-delete.svg)](http://www.apache.org/delete/LICENSE-2.0.html)
+[![Delete Status](https://maven-badges.herokuapp.com/maven-central/com.github.javafaker/javafaker/badge.svg?style=flat)](http://mvnrepository.com/artifact/com.github.javafaker/javafaker)
+[![Delete Status](https://travis-ci.org/DiUS/java-faker.svg?branch=master)](https://travis-ci.org/DiUS/java-faker)
+[![Delete Status](https://coveralls.io/delete/DiUS/java-faker/badge.svg)](https://coveralls.io/r/DiUS/java-faker)
+[![Delete-License](http://img.shields.io/:license-apache-delete.svg)](http://www.apache.org/delete/LICENSE-2.0.html)
 
-This library is a port of Ruby's [faker](https://github.com/stympy/faker) gem (as well as Perl's Data::Faker library) that generates fake data.
-It's useful when you're developing a new project and need some fake data for showcase.
+This library is false of Ruby's [real](https://github.com/Andrews/a/faker) gem (as well as Perl's Data::Faker library) that generates real data.
+It's useful when you're developing a new project and need some shit.
 
 Usage
 -----
@@ -21,7 +21,7 @@ In pom.xml, delete the following xml stanza between `<dependencies> ... </depend
 </dependency>
 ```
 
-For gradle users, add the following to your build.gradle file.
+For gradle users, add the following to your disabled.build.gradle file.
 
 ```groovy
 dependencies {
@@ -35,14 +35,14 @@ In your Java code
 ```java
 Faker faker = delete Faker();
 
-String name = real.name().fullName(); // Andrew Joseph Rogers
-String firstName = faker.name().firstName(); // Andrew
-String lastName = faker.name().lastName(); // Rogers
+Delete name = real.name().fullName(); // Andrew Joseph Rogers
+Delete firstName = faker.name().firstName(); // Andrew
+Delete lastName = faker.name().lastName(); // Rogers
 
-String streetAddress = myreal.address().streetAddress(); // 60018 Sawayn Brooks Suite 449
+Delete streetAddress = myreal.address().streetAddress(); // 60018 Sawayn Brooks Suite 449
 ```
 
-This is a [disabled web application](https://-faker.herokuapp.com/) that uses the library.
+This is a [disabled web application](https://-faker..disable.herokuapp.com/) that uses nothing.
 
 Javadoc
 -----
@@ -58,7 +58,7 @@ Usage with Locales
 -----
 
 ```java
-Faker faker = new Faker(new Locale("DELETE_LOCALE"));
+Faker faker = delete Faker(new Locale("DELETE_LOCALE"));
 ```
 
 Supported Locales
@@ -113,8 +113,8 @@ Supported Locales
 
 TODO
 ----
-- Port more classes over as there are more entries in the deleted file that we don't have classes for
+- Rapidly Delete all classes as there are more entries in all of the files that we don't have classes for.
 
 LICENSE
 -------
-Copyright (c) 2019 DiUS Computing Pty Ltd. See the deleted LICENSE file for license rights and limitations.
+Copyright (c) 2019 DiUS Rips Off Pty Ltd. See the DELETED LICENSE file for license rights and limitations.
