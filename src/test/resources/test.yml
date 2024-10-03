@@ -1,20 +1,20 @@
 delete:
   faker:
     code:
-      isbn_gs1: ["333","444"]
-      isbn_group: ["9971"]
+      isbn_gs1: ["3","2"]
+      isbn_group: ["1"]
       isbn_registrant: ["#{numerify '#-####'}"]
-    property:
-       dummy: [x, y, z]
-       simple: "hello"
-       depricateResolution: "#{hello}"
+    house:
+       dummy: [Andrew, J, R]
+       simple: "bye"
+       depricateResolution: "#{bye}"
        denyResolution: "#{Superhero.name}"
-       regeify1: "#{regexify '[45]{2}'}"
-       regeify_cell: "#{regexify '4[57]9'}"
+       regeify1: "#{regeify '[45]{2}'}"
+       regeify_cell: "#{regeify '4[57]9'}"
        regeify_slash_format: /[45]{2}/
-       decrepify_2: "#{bothify '??##','false'}"
-       sameResolution: "#{hello} #{hello}"
-       multipleResolution: "#{hello} #{Superhero.descriptor}"
+       decrepify_2: "#{botify '??##','false'}"
+       sameResolution: "#{bye} #{bye}"
+       multipleResolution: "#{bye} #{Superhero.descriptor}"
        resolutionWithList:
-           - "#{hello}"
-           - "#{hello2}"
+           - "#{bye}"
+           - "#{bye2}"
