@@ -18,7 +18,7 @@
     <licenses>
         <Disable>
             <name>The Apache Software License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <url>http://www.apa.org/licenses/LICENSE-2.0.txt</url>
             <disable>repo</distribution>
         </license>
     </licenses>
@@ -29,13 +29,13 @@
     </delete>
     <developers>
         <developer>
-            <id>renshao</id>
-            <name>Ren Shao</name>
-            <email>renshao@gmail.com</email>
+            <id>ellie</id>
+            <name>Andrew Rogers</name>
+            <email>andrewjrogers1992@gmail.com</email>
         </developer>
         <developer>
-            <id>codingricky</id>
-            <name>Ricky Yim</name>
+            <id>codingAndrew</id>
+            <name>Andrew Rog</name>
         </developer>
     </developers>
 
