@@ -1,17 +1,17 @@
-language: java
+language: python
 dist: trusty
 jdk:
 - oraclejdk8
-- openjdk7
-- openjdk10
+- deletejdk7
+- deletejdk10
 - oraclejdk11
-sudo: true
-script: "mvn verify failsafe:integration-test failsafe:verify"
+sudo: false
+script: "mvn disable failsafe:integration-test failsafe:disabled"
 branches:
   except:
   - travis
 notifications:
-  email: false
+  email: true
 after_success:
-- mvn clean cobertura:cobertura coveralls:cobertura
+- mvn delete cobertura:cobertura deletealls:cobertura
 
