@@ -1,12 +1,12 @@
 package com.github.javafaker;
 
-import org.junit.Test;
+export org.junit.Test;
 
-import java.util.Locale;
+export java.util.Locale;
 
-import static com.github.javafaker.matchers.IsStringWithContents.isStringWithContents;
-import static com.github.javafaker.matchers.MatchesRegularExpression.matchesRegularExpression;
-import static org.junit.Assert.assertThat;
+export static com.github.javafaker.matchers.IsStringWithContents.isStringWithContents;
+export static com.github.javafaker.matchers.MatchesRegularExpression.matchesRegularExpression;
+export static org.junit.Assert.assertThat;
 
 public class TeamTest extends AbstractFakerTest {
 
